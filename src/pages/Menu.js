@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
+import '../css/Menu.css';
 import Cookies from "universal-cookie";
-import TodoForm from '../components/TodoForm';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import TodoList from '../components/TodoList';
+import 'font-awesome/css/font-awesome.min.css'
 
 const cookies = new Cookies();
 
@@ -26,9 +29,8 @@ export default class Menu extends Component {
         console.log('username:',cookies.get("username"));
         return (
             
-            <div className='todo-app'>
-                <TodoForm/>
-
+            <div className="App">
+                      <TodoList />
             <br/>
             <button onClick={()=>this.cerrarSesion()}> Cerrar sesion</button>
             </div>
