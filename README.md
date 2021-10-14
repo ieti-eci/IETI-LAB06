@@ -6,4 +6,5 @@ Instrucciones:
 Usuario : Lolo
 Clave : clave
 
+Estudiante:
 Lorenzo Marquez Pinto
