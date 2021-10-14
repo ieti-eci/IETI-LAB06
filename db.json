@@ -1,0 +1,20 @@
+{
+  "usuarios":[
+      {
+          "id":1,
+          "primer_apellido":"Marquez",
+          "segundo_apellido":"Pinto",
+          "nombre":"Lorenzo",
+          "username":"Lolo",
+          "password":"fbc71ce36cc20790f2eeed2197898e71"
+      },  
+       {
+          "id":2,
+          "primer_apellido":"Marquez",
+          "segundo_apellido":"Pinto",
+          "nombre":"Jose",
+          "username":"Sir",
+          "password":"5f4dcc3b5aa765d61d8327deb882cf99"
+      }
+  ]
+}
